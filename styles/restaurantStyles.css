@@ -15,7 +15,6 @@ body {
 	font-family: Courier, serif;
 }
 
-/*Pt 2: Style the restaurant name with a hosted or embedded font.  I used Google's Antic Slab for most heading fonts throughout.*/
 h1, h2, h3, h4, h5 h6 {
 	color: grey;
 	font-family: 'Open Sans', sans-serif;
@@ -45,13 +44,17 @@ hr {
 	text-align: center;
 }
 
+/*CSS for Containers*/
+
 .container {
 	margin: auto;
 	width: 30%;
 	padding: 10px;
 }
 
-/* Pt 2: Had a few link requirements so I just left them in here. */
+
+/*CSS for the Navigation Links*/
+
 a {
     color: #EBE8DF;
 }
@@ -82,6 +85,7 @@ a:active {
 }
 
 
+/*CSS for the the rows*/
 
 .row {
 	color: #D0CDC2;
