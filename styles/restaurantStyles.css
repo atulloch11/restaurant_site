@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+/*Global
+DESKTOP VIEW*/
+
+/*Ashley Tulloch
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet);
+
+body {
+	background-color: #2A2C32;
+	font-family: Courier, serif;
+}
+
+/*Pt 2: Style the restaurant name with a hosted or embedded font.  I used Google's Antic Slab for most heading fonts throughout.*/
+h1, h2, h3, h4, h5 h6 {
+	color: grey;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+p2 {
+	color: black;
+	font-weight: bolder;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	margin: 0px;
+	border-style: dashed;
+	border-color: #FFFFFF;
+}
+
+.header {
+	color: #D0CDC2;
+	font-family: Courier, serif;
+	text-align: center;
+}
+
+.container {
+	margin: auto;
+	width: 30%;
+	padding: 10px;
+}
+
+/* Pt 2: Had a few link requirements so I just left them in here. */
+a {
+    color: #EBE8DF;
+}
+
+a:link {
+	color: #EBE8DF;
+}
+
+a:visited {
+	color: #A2988A;
+}
+
+a:hover {
+	color: #F5F5F5;
+	font-weight: bolder;
+}
+
+a:active {
+	color: #F5F5F5;
+	text-decoration: none;
+}
+
+
+/*Jumbotron CSS*/
+.jumbotron p{
+    color: #2A2C32;
+		font-weight: bolder;
+}
+
+
+
+.row {
+	color: #D0CDC2;
+	font-family: Courier, serif;
+	text-align: center;
+}
